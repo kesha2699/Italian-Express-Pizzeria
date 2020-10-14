@@ -88,7 +88,7 @@
             </div>
             <h2>Order your pizza and will make the delivery to your home!</h2>
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-sm-5">
                     <form action="">
                         <label for="select">Select Your Pizza</label>
                         <select class="browser-default custom-select custom-select-md mb-3 name=">
@@ -134,11 +134,58 @@
                         <button type="submit" class="btn btn-orange submit">Submit</button>
                     </form>
                 </div>
-                
-
+                <div class="col-sm-7">
+                    <div id="information">
+                        <p>Your order will be processed and delivered to you within 1 hour.</p>
+                        <p>Incase of any complain, Please reach out to us.</p>
+                        <p id="regards">Regards, Management</p>
+                    </div>
+                    <div class="choice">
+                        <h2>Your Order is:</h2>
+                        <div id="your-orders">
+                            <table class="table table-sm pizzatable">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Size</th>
+                                        <th scope="col">Crust</th>
+                                        <th scope="col">Topping</th>
+                                        <th scope="col">Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="ordersmade">
+                                    <tr>
+                                        <td id="pizzaname"></td>
+                                        <td id="pizzasize"></td>
+                                        <td id="pizzacrust"></td>
+                                        <td id="pizzatoppings"></td>
+                                        <td id="totals"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p id="pizzatotal"></p>
+                            <p id="totalbill"></p>
+                            <p id="addedprice">Delivery will cost ksh. 100</p>
+                            <p id="finalmessage"></p>
+                        </div>
+                        <button class="btn btn-orange addPizza">Add Pizza</button>
+                        <button class="btn btn-orange" id="checkout">Checkout</button>
+                        <button class="btn btn-orange deliver">Home Delivery</button>
+                    </div>
+                    <div class="delivery">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-control md-3" placeholder="Name">
+                                <input type="number" id="phone" class="form-control md-3" placeholder="Phone Number">
+                                <input type="text" id="location" class="form-control md-3" placeholder="Location  for delivery">
+                                <button class="btn btn-orange" id="final-order">Place Order</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
+
 </body>
 </html>
