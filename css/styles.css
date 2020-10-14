@@ -23,5 +23,16 @@ h4{
     font-size: 300%;
 }
 .test-box{
-    background-color: white;
+    background-color: blanchedalmond;
+}
+nav .navbar{
+    width: 99%;
+    padding-right: 0px;
+}
+.navbar-brand{
+    margin-right: 50%;
+    font-weight: bold;
+}
+.nav-item a{
+    font-weight: 800;
 }
