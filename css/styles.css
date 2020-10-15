@@ -131,3 +131,10 @@ footer{
     text-align: center;
 
 }
+@media only screen and (max-width:490px){
+    #contact{
+        background-color: lightseagreen;
+    }
+}
+
+
