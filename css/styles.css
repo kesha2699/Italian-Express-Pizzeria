@@ -63,3 +63,71 @@ h2{
     font-size: 150%;
     padding: 20px;
 }
+.order-overlay{
+    background-color:blanchedalmond;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-bottom: 20px;
+    padding-left: 5%;
+}
+.choice{
+    display: none;
+}
+.delivery{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.order{
+    text-align: center;
+    font-weight: bold;
+}
+.choice h2{
+    text-align: left;
+    font-size: 20px;
+}
+#your-orders{
+    font-size: 30px;
+}
+#contact h2{
+    text-align: center;
+}
+#contactdetails h2{
+    text-align: left;
+}
+.footer{
+    padding-top: 5%;
+}
+#addedprice{
+    display: none;
+}
+#finalmessage{
+    display: none;
+    font-size: 30px;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#regards{
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+    font-size: 30px;
+}
+#information{
+    color: darkcyan;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 8%;
+}
+#contact{
+    background-color: lightgrey;
+    font-size: 18px;
+    margin: 3%;
+}
+footer{
+    text-align: center;
+
+}
