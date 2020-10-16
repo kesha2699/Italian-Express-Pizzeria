@@ -88,6 +88,7 @@ h2{
 }
 #your-orders{
     font-size: 30px;
+    font-weight: 500;
 }
 #contact h2{
     text-align: center;
@@ -136,5 +137,13 @@ footer{
         background-color: lightseagreen;
     }
 }
+td,th{
+    font-size: 20px;
+}
+.form-control{
+    padding: 2%;
+    margin: 20px;
+}
+
 
 
