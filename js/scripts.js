@@ -127,6 +127,16 @@ $(document).ready(function(){
                     console.log("No price");
             }
 
+            // var checkboxes = $('input[name="toppings"]:checked').length;
+            // if (psize === "small") {
+            //     var topping_value = checkboxes *50;
+            // }
+            // else if (psize === "medium") {
+            //     var topping_value = checkboxes *100;
+            // }
+            // else if (psize === "large") {
+            //     var topping_value = checkboxes *150;
+
             let topping_value = ptopping.length*50;
             console.log("toppings value" + topping_value);
             total = price + crust_price + topping_value;
